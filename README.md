@@ -36,6 +36,11 @@
 Stickman Studio is a free Windows app for making 2D stickman animation. No AI, no account, no internet:
 everything is plain geometry running on your own computer.
 
+<p align="center">
+  <img alt="The Stickman Studio window: the Animate screen with the sword duel open, its tools, stage and timeline" src="docs/screenshot_animate.png" width="100%">
+  <br><sub><i>The Animate screen: pose with joint handles, onion skin of the keys before and after, and one timeline for every character and drawing layer.</i></sub>
+</p>
+
 ## Download and install (Windows 10 / 11, 64-bit)
 
 1. Open the [**Releases**](../../releases/latest) page and download `Stickman-Studio-…-windows-x64.zip`.
