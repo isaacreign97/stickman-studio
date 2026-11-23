@@ -1623,10 +1623,9 @@ def export(proj, out_dir, kinds=("png", "gif"), transparent=False):
     if "png" in kinds:
         for i, im in enumerate(frames, 1):
             im.save(os.path.join(d, f"{slug}_{i:04d}.png"))
-    if "gif" in kinds:
-        g = [im.convert("RGB") if not transparent else im for im in frames]
-        g[0].save(os.path.join(d, f"{slug}.gif"), save_all=True, append_images=g[1:],
-                  duration=max(20, round(1000 / proj.doc["fps"])), loop=0, disposal=2)
+    if "gif" in kinds:   # one palette for every frame (no flicker), exact timing
+        import gifwrite
+        gifwrite.write_gif(os.path.join(d, f"{slug}.gif"), frames, proj.doc["fps"], transparent=transparent)
     if "mp4" in kinds:
         video = frames if not transparent else [render(proj, f) for f in range(proj.doc["length"])]
         write_mp4(os.path.join(d, f"{slug}.mp4"), video, proj.doc["fps"])

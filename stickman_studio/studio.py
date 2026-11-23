@@ -34,7 +34,7 @@ from restore_dialog import RestoreDialog  # noqa: E402
 from tour import Tour  # noqa: E402
 from PIL import Image, ImageTk  # noqa: E402
 
-VERSION = "3.3"   # bump per feature (1.2 backups 1.3 tracing 1.4 carry 1.5 smooth 1.6 trails 1.7 keys 1.8 compare
+VERSION = "3.3.1"   # bump per feature (1.2 backups 1.3 tracing 1.4 carry 1.5 smooth 1.6 trails 1.7 keys 1.8 compare
 #                   1.9 analytics 2.0 project management and recovery 2.1 batch export 3.0 multi-character 3.1 optional joints 3.2 creative tools
 #                   3.3 ribbon interface)
 FRAME = re.compile(r"^f(\d+)\.png$", re.IGNORECASE)

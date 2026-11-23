@@ -900,8 +900,8 @@ def write_gif(src, idx, fps, width, path, prog, win):
         win.update()
     if not frames:
         raise OSError("No frames could be read.")
-    frames[0].save(path, save_all=True, append_images=frames[1:], duration=durations(len(frames), fps),
-                   loop=0, disposal=1)
+    import gifwrite   # one palette for the whole clip (no colour flicker), dithered because it's video
+    gifwrite.write_gif(path, frames, fps, dither=True)
     prog.configure(value=len(idx) + 1)
     win.update()
     return len(frames)
