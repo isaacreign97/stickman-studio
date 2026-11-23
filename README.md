@@ -1,15 +1,40 @@
-# Stickman Studio
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/banner-dark.svg">
+    <img alt="Stickman Studio: trace it, animate it, ship it" src="docs/banner-light.svg" width="100%">
+  </picture>
+</p>
 
-**Trace stickman animations from any video, or animate them yourself — then export them for your game.**
+<p align="center">
+  <a href="https://github.com/isaacreign97/stickman-studio/releases/latest"><img alt="Download the latest release" src="https://img.shields.io/github/v/release/isaacreign97/stickman-studio?label=download&style=for-the-badge&color=e3222b"></a>
+  <img alt="Windows 10 and 11" src="https://img.shields.io/badge/windows-10%20%7C%2011-2457c5?style=for-the-badge">
+  <a href="LICENSE"><img alt="MIT licence" src="https://img.shields.io/badge/licence-MIT-444444?style=for-the-badge"></a>
+  <img alt="No AI" src="https://img.shields.io/badge/AI-none-2f9e5a?style=for-the-badge">
+</p>
 
-![A looping sword duel between two stickmen, made in Stickman Studio's Animate screen](docs/sword_duel.gif)
+<p align="center">
+  <a href="#download-and-install-windows-10--11-64-bit"><b>Download</b></a> &nbsp;·&nbsp;
+  <a href="#what-it-does"><b>Features</b></a> &nbsp;·&nbsp;
+  <a href="#run-from-the-source-code"><b>Run from source</b></a> &nbsp;·&nbsp;
+  <a href="#build-the-windows-download-yourself"><b>Build</b></a> &nbsp;·&nbsp;
+  <a href="#licence"><b>Licence</b></a>
+</p>
 
-Stickman Studio is a free Windows app for making 2D stickman animation. Open a video, click the 12 joints of the
-fighter on a few key frames, and the in-betweens are made for you. Or skip the video: pose stickmen like
-paper puppets, draw frame by frame, or rig your own drawings to a skeleton. Export GIFs, MP4 videos, PNG frames
-and game-ready sprite sheets.
+<p align="center">
+  <img alt="A looping sword duel between two stickmen, made in Stickman Studio's Animate screen" src="docs/sword_duel.gif" width="720">
+  <br><sub><i>Made in Stickman Studio's Animate screen: two stickmen, 25 fps, a seamless loop.</i></sub>
+</p>
 
-No AI, no account, no internet: everything is plain geometry running on your own computer.
+<table align="center">
+  <tr>
+    <td align="center" width="33%"><h3>🎬 Trace</h3>Open any video, click the 12 joints on a few key frames. The in-betweens are made for you.</td>
+    <td align="center" width="33%"><h3>🦴 Animate</h3>No video? Pose stickmen like puppets, draw frame by frame, or rig your own drawings.</td>
+    <td align="center" width="33%"><h3>🎮 Ship</h3>Export GIF, MP4, PNG frames and sprite sheets with JSON for Unity and other engines.</td>
+  </tr>
+</table>
+
+Stickman Studio is a free Windows app for making 2D stickman animation. No AI, no account, no internet:
+everything is plain geometry running on your own computer.
 
 ## Download and install (Windows 10 / 11, 64-bit)
 
