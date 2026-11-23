@@ -2,7 +2,7 @@
 
 **Trace stickman animations from any video, or animate them yourself — then export them for your game.**
 
-![A sword fight made in Stickman Studio's Animate screen](docs/sword_fight.gif)
+![A looping sword duel between two stickmen, made in Stickman Studio's Animate screen](docs/sword_duel.gif)
 
 Stickman Studio is a free Windows app for making 2D stickman animation. Open a video, click the 12 joints of the
 fighter on a few key frames, and the in-betweens are made for you. Or skip the video: pose stickmen like
@@ -36,7 +36,7 @@ inside the folder. To uninstall, delete the folder.
 **Export:** GIF, MP4 video, PNG frames (transparent if you like), pose data (JSON / CSV) and **sprite sheets** with
 JSON metadata (frame positions, timing and pivots) for Unity and other engines.
 
-![A sprite sheet exported from the sword fight](docs/sprite_sheet_example.png)
+![A sprite sheet of the black fighter's attack, exported from the duel](docs/sprite_sheet_example.png)
 
 **Skeleton:** 12 joints, plus 6 optional ones (shoulders, hand tips and toes) you can add only where you need them.
 
