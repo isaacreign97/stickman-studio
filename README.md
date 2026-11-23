@@ -36,11 +36,6 @@
 Stickman Studio is a free Windows app for making 2D stickman animation. No AI, no account, no internet:
 everything is plain geometry running on your own computer.
 
-<p align="center">
-  <img alt="The Stickman Studio window: the Animate screen with the sword duel open, its tools, stage and timeline" src="docs/screenshot_animate.png" width="100%">
-  <br><sub><i>The Animate screen: pose with joint handles, onion skin of the keys before and after, and one timeline for every character and drawing layer.</i></sub>
-</p>
-
 ## Download and install (Windows 10 / 11, 64-bit)
 
 1. Open the [**Releases**](../../releases/latest) page and download `Stickman-Studio-…-windows-x64.zip`.
@@ -55,6 +50,19 @@ inside the folder. To uninstall, delete the folder.
 > .exe yourself (see below).
 
 ## What it does
+
+<table>
+  <tr>
+    <td width="50%" valign="top"><img alt="1 Source: the sword duel video, frame 22 of 75, with frames 11 to 45 marked as the move" src="docs/screenshot_source.png"><br><b>1 Source</b><br><sub>Step through a video frame by frame and mark the move (here frames 11–45 of the duel).</sub></td>
+    <td width="50%" valign="top"><img alt="2 Trace: the 12 joints clicked on the black fighter at key frame 21, with the key-frame grid and joint list" src="docs/screenshot_trace.png"><br><b>2 Trace</b><br><sub>Click the 12 joints on a few key frames; the panel shows what's done and what's next.</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><img alt="3 Review: the traced stickman mid-jump with motion trails, the key frames on the timeline and the fix panel" src="docs/screenshot_review.png"><br><b>3 Review</b><br><sub>Watch it as a clean stickman with motion trails, then fix camera angle, zoom or floating feet.</sub></td>
+    <td width="50%" valign="top"><img alt="5 Animate: the sword duel open, with joint handles, onion skin, tools and the timeline" src="docs/screenshot_animate.png"><br><b>5 Animate</b><br><sub>No video needed: pose, key, draw and rig on one timeline for every character and layer.</sub></td>
+  </tr>
+</table>
+
+<sub>All four screenshots use the sword duel above, made in Stickman Studio and then traced back in it.</sub>
 
 | Screen | What you do there |
 |---|---|
